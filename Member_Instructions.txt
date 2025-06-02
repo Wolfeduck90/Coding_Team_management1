@@ -1,0 +1,81 @@
+Team Member Assignments
+👤 Member 1: Data Management & Research Specialist
+Primary Tasks:
+    • Expand the predefined crypto database with at least 8-10 cryptocurrencies 
+    • Research and validate sustainability scores, energy usage data, and market trends 
+    • Create data validation functions to ensure data integrity 
+    • Design the database structure for easy querying and updates 
+    • Document data sources and methodology for sustainability scoring 
+Deliverables:
+    • Enhanced crypto_db dictionary with comprehensive data 
+    • Data validation module (data_validator.py) 
+    • Documentation of data sources and scoring methodology 
+
+👤 Member 2: Chatbot Personality & Conversation Design
+Primary Tasks:
+    • Design the chatbot's personality, tone, and naming (CryptoBuddy concept) 
+    • Create conversation flow diagrams and user interaction patterns 
+    • Write engaging response templates and personality-driven messages 
+    • Design welcome messages, help commands, and error handling responses 
+    • Create the chatbot's "voice" and ensure consistent tone throughout 
+Deliverables:
+    • Chatbot personality documentation 
+    • Response templates library (personality.py) 
+    • Conversation flow diagrams 
+    • Welcome and help message systems 
+
+👤 Member 3: Core Logic & Algorithm Developer
+Primary Tasks:
+    • Implement the main decision-making algorithms for profitability analysis 
+    • Create the rule-based system using if-else logic for investment recommendations 
+    • Develop query parsing functions to understand user intents 
+    • Build the recommendation engine that balances profitability vs sustainability 
+    • Implement the core chatbot response logic 
+Deliverables:
+    • Main chatbot logic engine (chatbot_core.py) 
+    • Investment recommendation algorithms 
+    • Query parsing and intent recognition functions 
+    • Decision tree for recommendation logic 
+
+👤 Member 4: User Interface & Testing Specialist
+Primary Tasks:
+    • Design and implement the user interaction interface 
+    • Create comprehensive test cases for different user scenarios 
+    • Handle input validation and error management 
+    • Implement the conversation loop and user experience flow 
+    • Test bot responses across various query types and edge cases 
+    • Create sample conversations and interaction examples 
+Deliverables:
+    • User interface module (ui_handler.py) 
+    • Comprehensive test suite (test_chatbot.py) 
+    • Sample conversation scripts 
+    • Error handling and input validation systems 
+
+👤 Member 5: Integration & Documentation Lead
+Primary Tasks:
+    • Integrate all team members' components into a cohesive application 
+    • Implement stretch goals (API integration with CoinGecko, basic NLP features) 
+    • Create the main application file that ties everything together 
+    • Write comprehensive README documentation with setup instructions 
+    • Prepare GitHub repository with proper structure and screenshots 
+    • Handle final testing and deployment preparation 
+Deliverables:
+    • Main application file (main.py) 
+    • Complete README with setup and usage instructions 
+    • GitHub repository organization 
+    • API integration features (stretch goal) 
+    • Final integration testing and bug fixes 
+
+Shared Responsibilities:
+    • All Members: Document their code with clear comments and docstrings 
+    • All Members: Test their components individually before integration 
+    • All Members: Contribute to the final presentation and demo 
+Timeline Coordination:
+    • Days 1-2: Individual component development 
+    • Day 3: First integration and testing 
+    • Day 4: Refinement and stretch goal implementation 
+    • Day 5: Final testing, documentation, and submission prep 
+Communication Plan:
+    • Shared GitHub repository for version control 
+    • Team whatsapp chat for quick coordination 
+    • Code review process before merging components
