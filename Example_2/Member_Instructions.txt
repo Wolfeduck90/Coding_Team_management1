@@ -1,260 +1,166 @@
-# AI for SDGs - 7-Day Team Project Plan
+# AI for SDG 3: Air Pollution Prediction Team Assignment
 
-## Team Member Roles & Primary Responsibilities
+## Project Overview
+**SDG Focus**: SDG 3 - Good Health and Well-being  
+**Problem**: Air pollution prediction to reduce respiratory illness risk  
+**ML Approach**: Supervised learning (regression/classification) with time series forecasting  
+**Timeline**: 7 days total
 
-### Team Member 1: Project Lead & SDG Research Specialist
-- **Primary Focus**: SDG research, problem definition, and project coordination
-- **Secondary**: Support presentation development
+## Team Member Roles & Deliverables
 
-### Team Member 2: Data Engineer & Dataset Curator
-- **Primary Focus**: Data collection, preprocessing, and pipeline setup
-- **Secondary**: Support model evaluation
+### 👤 **Member 1: Data Engineer & Project Manager**
+**Role**: Data collection, preprocessing, and project coordination  
+**Deadline**: Day 3 (Wednesday) by 6 PM
 
-### Team Member 3: ML Engineer & Model Developer
-- **Primary Focus**: Model selection, training, and technical implementation
-- **Secondary**: Code documentation
+**Tasks**:
+- Find and collect air quality datasets (WHO, EPA, OpenAQ)
+- Data cleaning and preprocessing 
+- Feature engineering (AQI calculations, temporal features)
+- Set up project structure and GitHub repository
+- Daily team coordination and progress tracking
 
-### Team Member 4: Ethics & Documentation Specialist
-- **Primary Focus**: Ethical analysis, report writing, and documentation
-- **Secondary**: Support testing and validation
-
-### Team Member 5: Presentation & Deployment Specialist
-- **Primary Focus**: Demo creation, pitch deck, article writing
-- **Secondary**: Model deployment (stretch goal)
-
----
-
-## Daily Task Breakdown
-
-### Day 1 (Monday) - Foundation & Planning
-**Team Meeting**: 9:00 AM - 10:30 AM (All members)
-
-**Team Member 1 (Project Lead)**
-- 11:00 AM - 1:00 PM: Research 3-5 potential SDGs and specific problems
-- 2:00 PM - 4:00 PM: Create problem statement matrix with feasibility assessment
-- 4:00 PM - 5:00 PM: Prepare options for team decision
-- **Deliverable**: SDG options document with recommended choice
-
-**Team Member 2 (Data Engineer)**
-- 11:00 AM - 2:00 PM: Survey available datasets for top SDG candidates
-- 2:30 PM - 5:00 PM: Assess data quality, size, and accessibility
-- **Deliverable**: Dataset availability report with download links
-
-**Team Member 3 (ML Engineer)**
-- 11:00 AM - 3:00 PM: Review Week 2 materials and ML approaches
-- 3:30 PM - 5:00 PM: Map ML techniques to potential SDG problems
-- **Deliverable**: Technical approach recommendations
-
-**Team Member 4 (Ethics Specialist)**
-- 11:00 AM - 2:00 PM: Research ethical considerations for shortlisted SDGs
-- 2:30 PM - 5:00 PM: Create ethics framework template
-- **Deliverable**: Ethics checklist and potential bias identification
-
-**Team Member 5 (Presentation)**
-- 11:00 AM - 3:00 PM: Research successful AI for SDG case studies
-- 3:30 PM - 5:00 PM: Start pitch deck template and presentation structure
-- **Deliverable**: Presentation outline and template
-
-**End of Day 1 Decision Meeting**: 5:30 PM - 6:30 PM (All members)
-- Finalize SDG choice and problem statement
-- Confirm ML approach and dataset
+**Deliverable**: `data_preprocessing.py`
 
 ---
 
-### Day 2 (Tuesday) - Setup & Data Preparation
-**Daily Standup**: 9:00 AM - 9:30 AM (All members)
+### 👤 **Member 2: ML Model Developer**
+**Role**: Core machine learning model development  
+**Deadline**: Day 5 (Friday) by 6 PM
 
-**Team Member 1 (Project Lead)**
-- 10:00 AM - 12:00 PM: Set up GitHub repository with proper structure
-- 1:00 PM - 3:00 PM: Write detailed README with project overview
-- 3:30 PM - 5:00 PM: Create project timeline and milestone tracking
-- **Deliverable**: Organized GitHub repo with README
+**Tasks**:
+- Implement multiple ML algorithms (Random Forest, XGBoost, LSTM)
+- Model training and hyperparameter tuning
+- Cross-validation and performance optimization
+- Model comparison and selection
 
-**Team Member 2 (Data Engineer)**
-- 10:00 AM - 1:00 PM: Download and initial data exploration
-- 2:00 PM - 5:00 PM: Data cleaning and preprocessing pipeline
-- **Deliverable**: Clean dataset and preprocessing code
-
-**Team Member 3 (ML Engineer)**
-- 10:00 AM - 1:00 PM: Set up development environment and dependencies
-- 2:00 PM - 5:00 PM: Initial model architecture planning and baseline setup
-- **Deliverable**: Environment setup and model skeleton code
-
-**Team Member 4 (Ethics Specialist)**
-- 10:00 AM - 1:00 PM: Deep dive into chosen SDG's ethical landscape
-- 2:00 PM - 5:00 PM: Start report writing - problem definition section
-- **Deliverable**: Problem statement and ethics considerations draft
-
-**Team Member 5 (Presentation)**
-- 10:00 AM - 1:00 PM: Begin article writing - introduction and SDG context
-- 2:00 PM - 5:00 PM: Develop pitch deck structure and initial slides
-- **Deliverable**: Article introduction and pitch deck framework
+**Deliverable**: `ml_models.py`
 
 ---
 
-### Day 3 (Wednesday) - Model Development
-**Daily Standup**: 9:00 AM - 9:30 AM (All members)
+### 👤 **Member 3: Data Analyst & Visualization Specialist**
+**Role**: Exploratory data analysis and result visualization  
+**Deadline**: Day 4 (Thursday) by 6 PM
 
-**Team Member 1 (Project Lead)**
-- 10:00 AM - 12:00 PM: Progress monitoring and blocker resolution
-- 1:00 PM - 3:00 PM: Update project documentation
-- 3:30 PM - 5:00 PM: Support team members as needed
-- **Deliverable**: Updated project status and documentation
+**Tasks**:
+- Exploratory data analysis (EDA)
+- Statistical analysis of air pollution patterns
+- Create visualizations (pollution trends, health correlations)
+- Model performance visualization and interpretation
 
-**Team Member 2 (Data Engineer)**
-- 10:00 AM - 12:00 PM: Data visualization and exploratory analysis
-- 1:00 PM - 5:00 PM: Feature engineering and data pipeline optimization
-- **Deliverable**: Feature-engineered dataset and analysis visualizations
-
-**Team Member 3 (ML Engineer)**
-- 10:00 AM - 2:00 PM: Model training and initial experiments
-- 3:00 PM - 5:00 PM: Hyperparameter tuning and performance optimization
-- **Deliverable**: Working model with initial results
-
-**Team Member 4 (Ethics Specialist)**
-- 10:00 AM - 2:00 PM: Analyze model bias and fairness implications
-- 3:00 PM - 5:00 PM: Continue report writing - methodology section
-- **Deliverable**: Ethics analysis and methodology documentation
-
-**Team Member 5 (Presentation)**
-- 10:00 AM - 2:00 PM: Continue article writing - technical approach section
-- 3:00 PM - 5:00 PM: Develop demo script and presentation flow
-- **Deliverable**: Technical article sections and demo outline
+**Deliverable**: `data_analysis.py`
 
 ---
 
-### Day 4 (Thursday) - Model Refinement & Evaluation
-**Daily Standup**: 9:00 AM - 9:30 AM (All members)
+### 👤 **Member 4: Health Impact Researcher & Ethics Specialist**
+**Role**: Health correlation analysis and ethical considerations  
+**Deadline**: Day 6 (Saturday) by 2 PM
 
-**Team Member 1 (Project Lead)**
-- 10:00 AM - 12:00 PM: Code review and quality assurance
-- 1:00 PM - 3:00 PM: Integration testing and workflow verification
-- 3:30 PM - 5:00 PM: Prepare for mid-project review
-- **Deliverable**: Quality-assured integrated codebase
+**Tasks**:
+- Research air pollution-respiratory illness correlations
+- Implement health risk prediction algorithms
+- Ethical bias analysis and fairness assessment
+- Write ethical considerations section
 
-**Team Member 2 (Data Engineer)**
-- 10:00 AM - 1:00 PM: Model evaluation support and results analysis
-- 2:00 PM - 5:00 PM: Create data visualizations for presentation
-- **Deliverable**: Evaluation metrics and presentation visualizations
-
-**Team Member 3 (ML Engineer)**
-- 10:00 AM - 2:00 PM: Model evaluation and performance metrics
-- 3:00 PM - 5:00 PM: Code documentation and commenting
-- **Deliverable**: Evaluated model with comprehensive metrics
-
-**Team Member 4 (Ethics Specialist)**
-- 10:00 AM - 2:00 PM: Complete ethical reflection and bias analysis
-- 3:00 PM - 5:00 PM: Write results section of report
-- **Deliverable**: Complete ethics analysis and results documentation
-
-**Team Member 5 (Presentation)**
-- 10:00 AM - 2:00 PM: Finalize article - results and impact sections
-- 3:00 PM - 5:00 PM: Create demo screenshots and presentation materials
-- **Deliverable**: Near-complete article and demo materials
-
-**Mid-Project Review**: 5:30 PM - 6:30 PM (All members)
-- Review progress and adjust timeline if needed
+**Deliverable**: `health_impact_analysis.py`
 
 ---
 
-### Day 5 (Friday) - Integration & Documentation
-**Daily Standup**: 9:00 AM - 9:30 AM (All members)
+### 👤 **Member 5: Documentation & Presentation Lead**
+**Role**: Documentation, reporting, and presentation materials  
+**Deadline**: Day 7 (Sunday) by 4 PM
 
-**Team Member 1 (Project Lead)**
-- 10:00 AM - 1:00 PM: Final code integration and testing
-- 2:00 PM - 5:00 PM: GitHub repository finalization
-- **Deliverable**: Complete, tested GitHub repository
+**Tasks**:
+- Write comprehensive README with screenshots
+- Create 1-page project report
+- Develop presentation slides and pitch deck
+- Prepare demo materials and article draft
 
-**Team Member 2 (Data Engineer)**
-- 10:00 AM - 1:00 PM: Final data pipeline testing and documentation
-- 2:00 PM - 5:00 PM: Support demo preparation and troubleshooting
-- **Deliverable**: Documented data pipeline and demo support
-
-**Team Member 3 (ML Engineer)**
-- 10:00 AM - 1:00 PM: Final model testing and validation
-- 2:00 PM - 5:00 PM: Technical documentation completion
-- **Deliverable**: Final model and complete technical documentation
-
-**Team Member 4 (Ethics Specialist)**
-- 10:00 AM - 1:00 PM: Complete 1-page report
-- 2:00 PM - 5:00 PM: Final proofreading and formatting
-- **Deliverable**: Complete project report
-
-**Team Member 5 (Presentation)**
-- 10:00 AM - 1:00 PM: Complete article and pitch deck
-- 2:00 PM - 5:00 PM: Demo preparation and presentation rehearsal
-- **Deliverable**: Complete article, pitch deck, and demo ready
+**Deliverable**: `main.py` (integration script) + Documentation
 
 ---
 
-### Day 6 (Saturday) - Final Preparation & Polish
-**Daily Standup**: 10:00 AM - 10:30 AM (All members)
+## Daily Timeline & Milestones
 
-**All Team Members (Collaborative Day)**
-- 11:00 AM - 1:00 PM: Full demo rehearsal and timing
-- 2:00 PM - 4:00 PM: Final presentation polish and Q&A preparation
-- 4:30 PM - 6:00 PM: Final testing and bug fixes
-- **Deliverable**: Presentation-ready project
+### **Day 1 (Today) - Project Kickoff**
+- **All Members**: Team meeting, role assignment, initial research
+- **Member 1**: Begin data source identification
+- **Deadline**: End of day - Project plan finalized
 
----
+### **Day 2 (Tuesday) - Foundation Building**
+- **Member 1**: Data collection and initial cleaning
+- **Member 2**: ML approach research and algorithm selection
+- **Member 3**: Begin EDA planning
+- **Member 4**: Health research and literature review
+- **Member 5**: Documentation structure setup
 
-### Day 7 (Sunday) - Submission & Presentation
-**Final Team Meeting**: 9:00 AM - 10:00 AM (All members)
+### **Day 3 (Wednesday) - Data Ready**
+- **🎯 MILESTONE**: Clean dataset ready for modeling
+- **Member 1**: Complete data preprocessing ✅
+- **Member 2**: Begin model development
+- **Member 3**: Start EDA with clean data
 
-**Morning Tasks (All members contribute)**
-- 10:00 AM - 12:00 PM: Final submissions preparation
-- GitHub repository final check and README updates
-- Article posting to PLP Academy Community
-- Pitch deck sharing for peer reviews
+### **Day 4 (Thursday) - Analysis Complete**
+- **🎯 MILESTONE**: EDA and initial models ready
+- **Member 3**: Complete data analysis ✅
+- **Member 2**: First model iteration complete
+- **Member 4**: Health correlation analysis
 
-**Afternoon**
-- 1:00 PM - 3:00 PM: 5-minute presentation delivery and recording
-- 3:00 PM - 4:00 PM: Final submissions and documentation upload
+### **Day 5 (Friday) - Models Ready**
+- **🎯 MILESTONE**: ML models trained and evaluated
+- **Member 2**: Complete all ML models ✅
+- **Member 4**: Begin ethics analysis
+- **Member 5**: Start documentation
 
----
+### **Day 6 (Saturday) - Integration Phase**
+- **🎯 MILESTONE**: Health analysis and ethics complete
+- **Member 4**: Complete health impact analysis ✅
+- **Member 5**: Integrate all components
+- **All Members**: Code review and testing
 
-## Key Deliverables Checklist
-
-### Technical Deliverables
-- [ ] GitHub repository with complete code
-- [ ] Python notebook/scripts with comments
-- [ ] Clean, preprocessed dataset
-- [ ] Trained ML model with evaluation metrics
-- [ ] README with project overview and screenshots
-
-### Documentation Deliverables
-- [ ] 1-page project report covering SDG problem, ML approach, results, and ethics
-- [ ] Comprehensive code documentation
-- [ ] Ethics and bias analysis
-
-### Presentation Deliverables
-- [ ] Written article for PLP Academy Community
-- [ ] Pitch deck for peer reviews
-- [ ] 5-minute demo presentation
-- [ ] Demo screenshots and visualizations
+### **Day 7 (Sunday) - Final Delivery**
+- **🎯 FINAL DEADLINE**: 6 PM - Complete submission
+- **Member 5**: Finalize all documentation ✅
+- **All Members**: Final presentation rehearsal
+- **6 PM**: GitHub repository submission with all files
 
 ---
 
-## Critical Success Factors
+## File Structure for Submission
+```
+sdg3-air-pollution-prediction/
+├── README.md (with screenshots)
+├── main.py (integration script)
+├── data_preprocessing.py
+├── ml_models.py
+├── data_analysis.py
+├── health_impact_analysis.py
+├── requirements.txt
+├── data/
+│   ├── raw/
+│   └── processed/
+├── models/
+├── visualizations/
+├── docs/
+│   ├── project_report.pdf
+│   ├── pitch_deck.pptx
+│   └── article_draft.md
+└── notebooks/ (Jupyter notebooks for demos)
+```
 
-1. **Daily standups are mandatory** - Keep communication tight
-2. **Git workflow discipline** - Commit frequently, use branches
-3. **Documentation as you go** - Don't leave it all for the end
-4. **Test early and often** - Catch issues before final integration
-5. **Buffer time built in** - Each day has 30 minutes slack for unexpected issues
+---
+
+## Success Metrics
+- **Technical Implementation (40%)**: Working ML models with good performance
+- **SDG Relevance (20%)**: Clear connection to health outcomes
+- **Ethics & Social Impact (20%)**: Comprehensive bias analysis
+- **Creativity & Presentation (20%)**: Compelling demo and pitch
 
 ## Emergency Protocols
+- **Daily Check-ins**: 8 PM team calls
+- **Slack Channel**: Immediate communication
+- **Backup Plans**: Cross-training on critical components
+- **Buffer Time**: Built-in 2-hour buffer before final deadline
 
-If any team member falls behind:
-- **Day 1-2**: Project Lead redistributes tasks
-- **Day 3-4**: Other team members pick up critical path items
-- **Day 5+**: Focus on core deliverables, deprioritize stretch goals
+---
 
-## Communication Schedule
-
-- **Daily standups**: 9:00 AM (15-30 minutes)
-- **End-of-day check-ins**: 5:30 PM (15 minutes)
-- **Emergency Slack channel**: For urgent blockers
-- **Major decision meetings**: As scheduled above
-
-This timeline ensures all deliverables are completed with quality while providing buffer time for unexpected challenges. The parallel work streams maximize efficiency while maintaining clear ownership and accountability.
+*"AI can be the bridge between innovation and sustainability." - Let's code for cleaner air and healthier communities! 🌍💚*
